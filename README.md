@@ -2,6 +2,8 @@
 
 An assignment to explore sockets and multithreading. MAKE SURE TO COMMIT AND PUSH AS YOU GO. YOU SHOULD BE MAKING MULTIPLE COMMITS PER WAVE.
 
+DO NOT USE AI FOR THIS PROJECT
+
 ## Wave 1: Understand
 1. Take a moment to read through the ChatterboxClient.java file. Note what is currently implemented, and what you will be expected to implement.
 1. Try running ChatterboxServer using the example command in ChatterboxServer.java. You do not need to understand everything in this file, but you will be using the server to validate that your client is working! If working, it will talk about setting up, then every 10 seconds show a heartbeat message. It will take about 10 seconds for the first heartbeat to show up.
@@ -48,8 +50,8 @@ An assignment to explore sockets and multithreading. MAKE SURE TO COMMIT AND PUS
 ## Wave 8: Connecting over the internet
 1. Soon you will be emailed an IP address, port, and a set of usernames and passwords to use for connecting to our live class server. DO NOT SHARE THESE ADDRESSES/PORTS/PASSWORDS WITH ANYONE AND DO NOT COMMIT THEM TO YOUR REPOSITORY. You can place them in my_passwords.txt for easy access. That file is in the .gitignore, so it should not get committed
 1. Attempt connecting your client! Make sure to use the actual IP address, NOT localhost.
-1. The server should have the same basic behavior, try chatting with your classmates and making sure everything works! I may put a few extra anti-spam measures on the server. DO NOT ATTACK THE MAIN CLASS SERVER. I will provide a separate server for you to try to attack.
+1. The server should have the same basic behavior, try chatting with your classmates and making sure everything works! I may put a few extra anti-spam measures on the server. DO NOT ATTACK THE MAIN CLASS SERVER. DO NOT SPAM IT. I will provide a separate server for you to try to attack.
 
 ## Wave 9: (Optional) Attack
-1. You will be emailed a separate server and set of usernames / passwords that you are allowed to attack. If you are able to take it down, you will recieve extra credit. You are allowed to use AI to help you with your attack, but ONLY AFTER YOU HAVE ALREADY MADE A PR for your project. Do any attack commits for a malicious client in a separate branch.
+1. You will be emailed a separate server and set of usernames / passwords that you are allowed to attack. If you are able to take it down, you will receive extra credit. You are allowed to use AI to help you with your attack, but ONLY AFTER YOU HAVE ALREADY MADE A PR for your project. Do any attack commits for a malicious client in a separate branch.
 
