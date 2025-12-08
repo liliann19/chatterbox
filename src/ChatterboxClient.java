@@ -273,7 +273,13 @@ public class ChatterboxClient {
      */
     public void streamChat() throws IOException {
         //throw new UnsupportedOperationException("Chat streaming not yet implemented. Implement streamChat() and remove this exception!");
-        printIncomingChats();
+        //printIncomingChats();
+
+        Thread thread1 = new Thread(() -> printIncomingChats());
+        Thread thread2 = new Thread(() -> sendOutgoingChats());
+
+        thread1.start();
+        thread2.start();
     }
 
     /**
